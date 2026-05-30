@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Усі матеріали — «Котопес»</title>
+  <meta name="description" content="Збірка репортажів, інтерв'ю та оглядів про тварин в умовах війни в Україні.">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kirea.github.io/kotopes/materials.html">
+  <meta property="og:title" content="Усі матеріали — «Котопес»">
+  <meta property="og:description" content="Збірка репортажів, інтерв'ю та оглядів про тварин в умовах війни в Україні.">
+  <meta property="og:image" content="assets/img/home/hero.png">
+  <meta property="og:locale" content="uk_UA">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://kirea.github.io/kotopes/materials.html">
+  <meta property="twitter:title" content="Усі матеріали — «Котопес»">
+  <meta property="twitter:description" content="Збірка репортажів, інтерв'ю та оглядів про тварин в умовах війни в Україні.">
+  <meta property="twitter:image" content="assets/img/home/hero.png">
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#2A6F6B">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <!-- Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <a href="#main-content" class="skip-link">Перейти до головного вмісту</a>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html" class="logo" aria-label="Головна сторінка Котопес">
+        <div class="logo__mark">
+          <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="28" height="28">
+            <circle cx="6" cy="9" r="2.5" />
+            <circle cx="10" cy="5.5" r="2.5" />
+            <circle cx="14" cy="5.5" r="2.5" />
+            <circle cx="18" cy="9" r="2.5" />
+            <path d="M12 11c-2.5 0-4.5 1.5-4.5 4 0 2 1.5 3.5 3.5 3.5 1 0 1-.5 2-.5s1 .5 2 .5c2 0 3.5-1.5 3.5-3.5 0-2.5-2-4-4-4z" />
+          </svg>
+        </div>
+        <span class="logo__text">Котопес</span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Відкрити меню навігації">
+        <svg class="menu-toggle__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+      </button>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Домашня сторінка</a></li>
+          <li class="nav__item"><a href="materials.html" class="nav__link nav__link--active">Усі матеріали</a></li>
+          <li class="nav__item">
+            <details class="dropdown">
+              <summary class="dropdown__summary">
+                Рубрики
+                <svg class="dropdown__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </summary>
+              <div class="dropdown__menu">
+                <a href="materials.html?rubric=reportazh" class="dropdown__item">Художній репортаж</a>
+                <a href="materials.html?rubric=interviu" class="dropdown__item">Інтервʼю</a>
+                <a href="materials.html?rubric=portrety" class="dropdown__item">Портретні нариси</a>
+                <a href="materials.html?rubric=oglyady" class="dropdown__item">Огляди</a>
+              </div>
+            </details>
+          </li>
+          <li class="nav__item"><a href="help.html" class="nav__link nav__link--help">Допомога притулкам</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">Про нас</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container section">
+      
+      <!-- Page Header -->
+      <header style="margin-bottom: var(--space-3xl); text-align: center;">
+        <h1 id="materials-title" style="margin-bottom: var(--space-sm);">Усі матеріали</h1>
+        <div id="materials-reset-container" style="display: none; margin-top: var(--space-md);">
+          <a href="materials.html" class="article-back-link" aria-label="Показати всі статті">← Показати всі матеріали</a>
+        </div>
+      </header>
+
+      <!-- Articles Card Grid -->
+      <div class="card-grid" id="materials-grid">
+        
+        <!-- Card 1: Художній репортаж -->
+        <article class="card" data-rubric="reportazh">
+          <a href="articles/oazys-posered-betonnyh-dzhungliv.html" class="card__link" aria-label="Читати статтю: Оазис посеред бетонних джунглів">
+            <div class="card__image-wrapper">
+              <img src="assets/img/oazys/01.jpg" alt="Павич на балконі у дворі в центрі Києва" class="card__img" loading="lazy" width="300" height="200">
+            </div>
+            <div class="card__content">
+              <span class="chip card__chip">Художній репортаж</span>
+              <h3 class="card__title">Оазис посеред бетонних джунглів</h3>
+              <p class="card__excerpt">Нарешті я повернулася до батьків. Київ як завжди зустрічає натовпом, бо всі поспішають по своїх справах.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 2: Інтерв'ю -->
+        <article class="card" data-rubric="interviu">
+          <a href="articles/ponad-1000-vryatovanyh.html" class="card__link" aria-label="Читати статтю: Понад 1000 врятованих: як працює Центр порятунку диких тварин під Києвом">
+            <div class="card__image-wrapper">
+              <img src="assets/img/ponad-1000/01.jpg" alt="Засновниця Центру порятунку диких тварин Наталя Попова" class="card__img" loading="lazy" width="300" height="200">
+            </div>
+            <div class="card__content">
+              <span class="chip card__chip">Інтервʼю</span>
+              <h3 class="card__title">Понад 1000 врятованих: як працює Центр порятунку диких тварин під Києвом</h3>
+              <p class="card__excerpt">Центр порятунку диких тварин — єдина в Україні організація, яка рятує великих хижаків, виключно завдяки пожертвам небайдужих.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 3: Портрети -->
+        <article class="card" data-rubric="portrety">
+          <a href="articles/lyubov-bez-kordoniv.html" class="card__link" aria-label="Читати статтю: Любов, що не має кордонів: істории порятунку, втрат та повернення за своїми улюбленцями">
+            <div class="card__image-wrapper">
+              <img src="assets/img/lyubov/02.jpg" alt="Врятований кіт у новій домівці" class="card__img" loading="lazy" width="300" height="200">
+            </div>
+            <div class="card__content">
+              <span class="chip card__chip">Портретні нариси</span>
+              <h3 class="card__title">Любов, що не має кордонів: істории порятунку, втрат та повернення за своїми улюбленцями</h3>
+              <p class="card__excerpt">Шериф – кіт із французького притулку, якому родина Ніки подарувала справжню домівку.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 4: Екоцид (Огляди) -->
+        <article class="card" data-rubric="oglyady">
+          <a href="articles/zlochyn-bez-pokarannya.html" class="card__link" aria-label="Читати статтю: Злочин без покарання: як росія веде війну проти беззахисних тварин">
+            <div class="card__image-wrapper">
+              <img src="assets/img/zlochyn/01.jpg" alt="Комплекс відпочинку «Казкова Діброва» (м. Нова Каховка)" class="card__img" loading="lazy" width="300" height="200">
+            </div>
+            <div class="card__content">
+              <span class="chip card__chip">Огляди</span>
+              <h3 class="card__title">Злочин без покарання: як росія веде війну проти беззахисних тварин</h3>
+              <p class="card__excerpt">З перших днів повномасштабного вторгнення мільйони українців залишали свої домівки без особистих речей, але з хатніми улюбленцями.</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 5: Тварини в професії (Огляди) -->
+        <article class="card" data-rubric="oglyady">
+          <a href="articles/hvosty-ta-lapy-na-sluzhbi.html" class="card__link" aria-label="Читати статтю: Хвости та лапи на службі: як тварини допомагають і рятують людей">
+            <div class="card__image-wrapper">
+              <img src="assets/img/hvosty/01.jpg" alt="Службовий собака-рятувальник" class="card__img" loading="lazy" width="300" height="200">
+            </div>
+            <div class="card__content">
+              <span class="chip card__chip">Огляди</span>
+              <h3 class="card__title">Хвости та лапи на службі: як тварини допомагають і рятують людей</h3>
+              <p class="card__excerpt">Тварини допомагають нам не лише на побутовому рівні – іноді від них залежить наше життя.</p>
+            </div>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <div class="footer__brand-title">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="footer__logo-mark" aria-hidden="true" width="20" height="20">
+            <circle cx="6" cy="9" r="2.5" />
+            <circle cx="10" cy="5.5" r="2.5" />
+            <circle cx="14" cy="5.5" r="2.5" />
+            <circle cx="18" cy="9" r="2.5" />
+            <path d="M12 11c-2.5 0-4.5 1.5-4.5 4 0 2 1.5 3.5 3.5 3.5 1 0 1-.5 2-.5s1 .5 2 .5c2 0 3.5-1.5 3.5-3.5 0-2.5-2-4-4-4z" />
+          </svg>
+          «Котопес»
+        </div>
+        <p class="footer__desc">Сайт документальної журналістики про долі тварин під час війни в Україні.</p>
+      </div>
+      <div class="footer__nav-group">
+        <div class="footer__title">Навігація</div>
+        <ul class="footer__list">
+          <li><a href="index.html" class="footer__link">Домашня сторінка</a></li>
+          <li><a href="materials.html" class="footer__link">Усі матеріали</a></li>
+          <li><a href="about.html" class="footer__link">Про нас</a></li>
+        </ul>
+      </div>
+      <div class="footer__nav-group">
+        <div class="footer__title">Допомога</div>
+        <ul class="footer__list">
+          <li><a href="help.html" class="footer__link">Підтримайте притулки</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; 2026 «Котопес». Усі права захищені.</p>
+      <p>Дипломний проєкт з документальної журналістики.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/nav.js"></script>
+  <script type="module" src="assets/js/listing.js"></script>
+</body>
+</html>

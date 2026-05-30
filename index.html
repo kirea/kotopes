@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Котопес — Захистимо тварин під час війни</title>
+  <meta name="description" content="Сайт документальної журналістики про долі тварин під час війни в Україні: порятунок, екоцид та вірні хвости на службі.">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kirea.github.io/kotopes/index.html">
+  <meta property="og:title" content="Котопес — Захистимо тварин під час війни">
+  <meta property="og:description" content="Сайт документальної журналістики про долі тварин під час війни в Україні: порятунок, екоцид та вірні хвости на службі.">
+  <meta property="og:image" content="assets/img/home/hero.png">
+  <meta property="og:locale" content="uk_UA">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://kirea.github.io/kotopes/index.html">
+  <meta property="twitter:title" content="Котопес — Захистимо тварин під час війни">
+  <meta property="twitter:description" content="Сайт документальної журналістики про долі тварин під час війни в Україні: порятунок, екоцид та вірні хвости на службі.">
+  <meta property="twitter:image" content="assets/img/home/hero.png">
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#2A6F6B">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <!-- Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <a href="#main-content" class="skip-link">Перейти до головного вмісту</a>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html" class="logo" aria-label="Головна сторінка Котопес">
+        <div class="logo__mark">
+          <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="28" height="28">
+            <circle cx="6" cy="9" r="2.5" />
+            <circle cx="10" cy="5.5" r="2.5" />
+            <circle cx="14" cy="5.5" r="2.5" />
+            <circle cx="18" cy="9" r="2.5" />
+            <path d="M12 11c-2.5 0-4.5 1.5-4.5 4 0 2 1.5 3.5 3.5 3.5 1 0 1-.5 2-.5s1 .5 2 .5c2 0 3.5-1.5 3.5-3.5 0-2.5-2-4-4-4z" />
+          </svg>
+        </div>
+        <span class="logo__text">Котопес</span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Відкрити меню навігації">
+        <svg class="menu-toggle__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+      </button>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link nav__link--active">Домашня сторінка</a></li>
+          <li class="nav__item"><a href="materials.html" class="nav__link">Усі матеріали</a></li>
+          <li class="nav__item">
+            <details class="dropdown">
+              <summary class="dropdown__summary">
+                Рубрики
+                <svg class="dropdown__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </summary>
+              <div class="dropdown__menu">
+                <a href="materials.html?rubric=reportazh" class="dropdown__item">Художній репортаж</a>
+                <a href="materials.html?rubric=interviu" class="dropdown__item">Інтервʼю</a>
+                <a href="materials.html?rubric=portrety" class="dropdown__item">Портретні нариси</a>
+                <a href="materials.html?rubric=oglyady" class="dropdown__item">Огляди</a>
+              </div>
+            </details>
+          </li>
+          <li class="nav__item"><a href="help.html" class="nav__link nav__link--help">Допомога притулкам</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">Про нас</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container section">
+      
+      <!-- Hero Section -->
+      <section class="hero" style="background-image: url('assets/img/home/hero.png');" aria-labelledby="hero-title">
+        <div class="hero__scrim"></div>
+        <div class="hero__content">
+          <h1 class="hero__title" id="hero-title">Своїх не кидають</h1>
+          <p class="hero__subtitle">Захистимо тварин під час війни</p>
+          <p class="hero__desc">
+            Тема взаємодії людини і тварини набуває особливого звучання в умовах повномасштабної війни. Від перших днів вторгнення росії в Україну тварини – домашні, дикі та службові – стали частиною великої гуманітарної катастрофи. Мільйони людей евакуювалися з улюбленцями, притулки переповнилися тваринами-переселенцями, а природні екосистеми зазнали непоправних збитків. Водночас тварини залишаються незамінними партнерами людини – рятують поранених, виявляють міни, допомагають реабілітуватися ветеранам.
+          </p>
+          <a href="materials.html" class="btn btn--primary">Читати матеріали</a>
+        </div>
+      </section>
+
+      <!-- Featured Articles -->
+      <section class="section" aria-labelledby="featured-title">
+        <h2 class="section-title" id="featured-title" style="margin-bottom: var(--space-xxl); text-align: center;">Рекомендовані матеріали</h2>
+        <div class="card-grid">
+          
+          <!-- Card 1 -->
+          <article class="card" data-rubric="reportazh">
+            <a href="articles/oazys-posered-betonnyh-dzhungliv.html" class="card__link" aria-label="Читати статтю: Оазис посеред бетонних джунглів">
+              <div class="card__image-wrapper">
+                <img src="assets/img/oazys/01.jpg" alt="Павич на балконі у дворі в центрі Києва" class="card__img" loading="lazy" width="300" height="200">
+              </div>
+              <div class="card__content">
+                <span class="chip card__chip">Художній репортаж</span>
+                <h3 class="card__title">Оазис посеред бетонних джунглів</h3>
+                <p class="card__excerpt">Нарешті я повернулася до батьків. Київ як завжди зустрічає натовпом, бо всі поспішають по своїх справах.</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card" data-rubric="interviu">
+            <a href="articles/ponad-1000-vryatovanyh.html" class="card__link" aria-label="Читати статтю: Понад 1000 врятованих: як працює Центр порятунку диких тварин під Києвом">
+              <div class="card__image-wrapper">
+                <img src="assets/img/ponad-1000/01.jpg" alt="Засновниця Центру порятунку диких тварин Наталя Попова" class="card__img" loading="lazy" width="300" height="200">
+              </div>
+              <div class="card__content">
+                <span class="chip card__chip">Інтервʼю</span>
+                <h3 class="card__title">Понад 1000 врятованих: як працює Центр порятунку диких тварин під Києвом</h3>
+                <p class="card__excerpt">Центр порятунку диких тварин — єдина в Україні організація, яка рятує великих хижаків, виключно завдяки пожертвам небайдужих.</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card" data-rubric="portrety">
+            <a href="articles/lyubov-bez-kordoniv.html" class="card__link" aria-label="Читати статтю: Любов, що не має кордонів: істории порятунку, втрат та повернення за своїми улюбленцями">
+              <div class="card__image-wrapper">
+                <img src="assets/img/lyubov/02.jpg" alt="Врятований кіт у новій домівці" class="card__img" loading="lazy" width="300" height="200">
+              </div>
+              <div class="card__content">
+                <span class="chip card__chip">Портретні нариси</span>
+                <h3 class="card__title">Любов, що не має кордонів: істории порятунку, втрат та повернення за своїми улюбленцями</h3>
+                <p class="card__excerpt">Шериф – кіт із французького притулку, якому родина Ніки подарувала справжню домівку.</p>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Rubric Shortcuts -->
+      <section class="section" aria-labelledby="rubrics-title">
+        <h2 class="section-title" id="rubrics-title" style="margin-bottom: var(--space-xxl); text-align: center;">Навігація за рубриками</h2>
+        <div class="rubric-grid">
+          
+          <a href="materials.html?rubric=reportazh" class="rubric-tile" aria-label="Перейти до рубрики Художній репортаж">
+            <svg class="rubric-tile__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+            </svg>
+            <span class="rubric-tile__label">Художній репортаж</span>
+          </a>
+
+          <a href="materials.html?rubric=interviu" class="rubric-tile" aria-label="Перейти до рубрики Інтервʼю">
+            <svg class="rubric-tile__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"/>
+            </svg>
+            <span class="rubric-tile__label">Інтервʼю</span>
+          </a>
+
+          <a href="materials.html?rubric=portrety" class="rubric-tile" aria-label="Перейти до рубрики Портретні нариси">
+            <svg class="rubric-tile__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+            </svg>
+            <span class="rubric-tile__label">Портретні нариси</span>
+          </a>
+
+          <a href="materials.html?rubric=oglyady" class="rubric-tile" aria-label="Перейти до рубрики Огляди">
+            <svg class="rubric-tile__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+            </svg>
+            <span class="rubric-tile__label">Огляди</span>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- Help CTA Band -->
+      <section class="cta-band" aria-labelledby="cta-title">
+        <div class="cta-band__content">
+          <h2 class="cta-band__title" id="cta-title">Допомога притулкам</h2>
+          <p class="cta-band__desc">Під час війни тварини опинилися у вкрай важких умовах. Вони не можуть попросити про допомогу, але ми можемо захистити їх. Підтримайте перевірені благодійні притулки та фонди, які рятують життя щодня.</p>
+          <a href="help.html" class="btn btn--white">Як допомогти ↗</a>
+        </div>
+      </section>
+
+      <!-- About Teaser -->
+      <section class="section" aria-labelledby="about-teaser-title" style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <h2 class="section-title" id="about-teaser-title" style="margin-bottom: var(--space-md);">Про проєкт</h2>
+        <p class="lead" style="margin-bottom: var(--space-xl);">
+          «Котопес» — це журналістський дипломний проєкт, присвячений документуванню та фіксації впливу повномасштабного російського вторгнення на тварин та природні екосистеми України.
+        </p>
+        <a href="about.html" class="btn btn--secondary">Детальніше про проєкт</a>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <div class="footer__brand-title">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="footer__logo-mark" aria-hidden="true" width="20" height="20">
+            <circle cx="6" cy="9" r="2.5" />
+            <circle cx="10" cy="5.5" r="2.5" />
+            <circle cx="14" cy="5.5" r="2.5" />
+            <circle cx="18" cy="9" r="2.5" />
+            <path d="M12 11c-2.5 0-4.5 1.5-4.5 4 0 2 1.5 3.5 3.5 3.5 1 0 1-.5 2-.5s1 .5 2 .5c2 0 3.5-1.5 3.5-3.5 0-2.5-2-4-4-4z" />
+          </svg>
+          «Котопес»
+        </div>
+        <p class="footer__desc">Сайт документальної журналістики про долі тварин під час війни в Україні.</p>
+      </div>
+      <div class="footer__nav-group">
+        <div class="footer__title">Навігація</div>
+        <ul class="footer__list">
+          <li><a href="index.html" class="footer__link">Домашня сторінка</a></li>
+          <li><a href="materials.html" class="footer__link">Усі матеріали</a></li>
+          <li><a href="about.html" class="footer__link">Про нас</a></li>
+        </ul>
+      </div>
+      <div class="footer__nav-group">
+        <div class="footer__title">Допомога</div>
+        <ul class="footer__list">
+          <li><a href="help.html" class="footer__link">Підтримайте притулки</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; 2026 «Котопес». Усі права захищені.</p>
+      <p>Дипломний проєкт з документальної журналістики.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/nav.js"></script>
+</body>
+</html>
