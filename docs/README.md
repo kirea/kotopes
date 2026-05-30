@@ -53,7 +53,11 @@ the repo's `sources/` folder and must be used **verbatim**.
 
 ## Status
 - ✅ Documentation set complete (this folder).
-- ⛔ Site implementation not started — begin at TASKS.md Phase 0.
+- ✅ Site implemented (all Phases 0–9). See the root [`README.md`](../README.md) for run/deploy
+  steps and **build notes & deviations** — including one correction: the портрети title is
+  «істор**ії**» in the actual source (the verbatim-correct spelling), not the «істории» these docs
+  assumed. Sources win for content, so «історії» is used throughout.
+- ⏳ Only remaining manual step: enable GitHub Pages (Settings → Pages → branch + root).
 
 ## Status legend (for TASKS.md checkboxes)
 `[ ]` not started · `[~]` in progress (annotate) · `[x]` done & verified against its done-criterion.

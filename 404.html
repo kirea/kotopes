@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сторінку не знайдено — Котопес</title>
+  <meta name="description" content="Такої сторінки немає. Поверніться на головну або перегляньте всі матеріали проєкту «Котопес».">
+  <meta name="robots" content="noindex">
+
+  <link rel="icon" href="/kotopes/assets/icons/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#2A6F6B">
+
+  <!--
+    NOTE: 404.html uses /kotopes/-rooted absolute paths (not relative). GitHub
+    Pages serves this file for ANY missing URL at arbitrary depth, where relative
+    paths would not resolve. This is the one documented exception to the
+    relative-paths-only rule (D5). A minimal critical CSS is inlined below so the
+    page still renders even if the external stylesheet fails to load.
+  -->
+  <link rel="stylesheet" href="/kotopes/assets/fonts/fonts.css">
+  <link rel="stylesheet" href="/kotopes/assets/css/styles.css">
+  <style>
+    body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: #FBF6EC; color: #2A2420; }
+    .nf { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem; text-align: center; padding: 2rem; max-width: 52ch; margin-inline: auto; }
+    .nf__mark { width: 96px; height: 96px; }
+    .nf h1 { font-family: 'Lora', Georgia, serif; font-size: clamp(2.5rem, 6vw, 4rem); margin: 0; }
+    .nf p { color: #5C5248; margin: 0; font-size: 1.125rem; }
+    .nf__actions { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: center; }
+    .nf .btn { display: inline-flex; align-items: center; min-height: 48px; padding: .75rem 1.5rem; border-radius: 999px; font-weight: 600; text-decoration: none; border: 1.5px solid transparent; }
+    .nf .btn--primary { background: #1F5350; color: #fff; }
+    .nf .btn--outline { border-color: #2A6F6B; color: #1F5350; }
+  </style>
+</head>
+<body>
+  <main class="nf">
+    <svg class="nf__mark" viewBox="0 0 48 48" fill="#2A6F6B" aria-hidden="true">
+      <ellipse cx="24" cy="33" rx="9.5" ry="8"/><ellipse cx="11.5" cy="23" rx="3.7" ry="5"/><ellipse cx="19" cy="16.5" rx="3.9" ry="5.4"/><ellipse cx="29" cy="16.5" rx="3.9" ry="5.4"/><ellipse cx="36.5" cy="23" rx="3.7" ry="5"/>
+    </svg>
+    <h1>Сторінку не знайдено</h1>
+    <p>Здається, ця стежка завела в глухий кут. Але своїх не кидають — повертайтеся до матеріалів.</p>
+    <div class="nf__actions">
+      <a class="btn btn--primary" href="/kotopes/index.html">На головну</a>
+      <a class="btn btn--outline" href="/kotopes/materials.html">Усі матеріали</a>
+    </div>
+  </main>
+</body>
+</html>

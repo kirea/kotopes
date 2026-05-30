@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Котопес">
+  <rect width="48" height="48" rx="11" fill="#F2C14E"/>
+  <g fill="#1F5350">
+    <ellipse cx="24" cy="33" rx="9.5" ry="8"/>
+    <ellipse cx="11.5" cy="23" rx="3.7" ry="5"/>
+    <ellipse cx="19" cy="16.5" rx="3.9" ry="5.4"/>
+    <ellipse cx="29" cy="16.5" rx="3.9" ry="5.4"/>
+    <ellipse cx="36.5" cy="23" rx="3.7" ry="5"/>
+  </g>
+</svg>
