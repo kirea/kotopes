@@ -117,7 +117,16 @@ a:hover { color: var(--teal); }
 .rubric-menu summary { list-style: none; }
 .rubric-menu summary::-webkit-details-marker,
 .mobile-nav summary::-webkit-details-marker { display: none; }
-.rubric-menu summary::after { content: "⌄"; margin-left: .25rem; }
+.rubric-menu summary::after {
+  content: "";
+  width: .45rem;
+  height: .45rem;
+  flex: 0 0 auto;
+  margin-left: .5rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-.12em) rotate(45deg);
+}
 .dropdown {
   position: absolute;
   top: calc(100% + .35rem);
@@ -308,7 +317,7 @@ h3 { font-size: 1.24rem; }
 .rubric-tile {
   min-height: 150px;
   display: flex;
-  align-items: end;
+  align-items: baseline;
   justify-content: space-between;
   padding: 1.25rem;
   color: var(--ink);
@@ -347,9 +356,14 @@ h3 { font-size: 1.24rem; }
 .reset-link[hidden] { display: none; }
 .help-card {
   display: grid;
+  grid-template-rows: auto 1fr auto;
   align-content: start;
   gap: 1rem;
   padding: 1.25rem;
+}
+.help-card .button {
+  align-self: end;
+  justify-self: start;
 }
 .help-card p { color: var(--ink-soft); margin: 0; }
 .mission {
