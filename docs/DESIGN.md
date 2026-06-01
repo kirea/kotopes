@@ -127,7 +127,7 @@ Serif headings + sans body, full Ukrainian Cyrillic (incl. the `ʼ` modifier apo
 
 ### 5.6 Hero (home)
 - Full-bleth band, `--radius-lg`, warm **generated photographic** background (§7) with a honey/teal
-  gradient scrim for text contrast. Slogan H1 «Своїх не кидають», subtitle «Захистимо тварин під час
+  gradient scrim for text contrast. Slogan H1 «Своїх не кидають», subtitle «Захистімо тварин під час
   війни», intro paragraph (verbatim), primary CTA → `materials.html`. Ensure text contrast over the
   image (scrim/overlay) meets AA.
 

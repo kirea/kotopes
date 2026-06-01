@@ -126,7 +126,7 @@ map and confirmed excerpts):
 
 ### 6.1 Домашня сторінка — `index.html`
 Sections in order (**D12**):
-1. **Hero** — slogan **«Своїх не кидають»** (H1), subtitle **«Захистимо тварин під час війни»**, then
+1. **Hero** — slogan **«Своїх не кидають»** (H1), subtitle **«Захистімо тварин під час війни»**, then
    the intro paragraph (verbatim from `Домашня сторінка.html`, beginning «Тема взаємодії людини і
    тварини…»), a primary CTA button to «Усі матеріали», warm generated photographic background (**D18**).
 2. **«Рекомендовані матеріали»** — 3–4 article cards (reuse the card component).

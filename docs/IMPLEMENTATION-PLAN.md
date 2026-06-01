@@ -77,7 +77,7 @@ Verbatim H1 titles (use exactly; note intentional «істории»):
 
 Other sources:
 - Home hero: `sources/Домашня сторінка/Домашня сторінка.html` → H1 «Своїх не кидають», subtitle
-  «Захистимо тварин під час війни», intro paragraph «Тема взаємодії людини і тварини…» (verbatim).
+  «Захистімо тварин під час війни», intro paragraph «Тема взаємодії людини і тварини…» (verbatim).
 - About: `sources/Про нас/Про нас.html` → paragraph beginning bold «Актуальність проєкту…» (verbatim).
 - Help: `sources/Допомога притулкам/Допомога притулкам.txt` → 3 URLs (see PRD §6.6).
 

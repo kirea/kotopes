@@ -175,7 +175,7 @@ function sourceH1(file) {
 function homeContent() {
   const body = sourceBody("sources/Домашня сторінка/Домашня сторінка.html");
   const title = textFromHtml(body.match(/<p class=MsoTitle[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? "Своїх не кидають");
-  const subtitle = textFromHtml(body.match(/<p class=MsoSubtitle[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? "Захистимо тварин під час війни");
+  const subtitle = textFromHtml(body.match(/<p class=MsoSubtitle[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? "Захистімо тварин під час війни");
   const paragraphs = [...body.matchAll(/<p\b[\s\S]*?<\/p>/gi)]
     .map((match) => textFromHtml(match[0]))
     .filter((text) => text && text !== title && text !== subtitle);
