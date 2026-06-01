@@ -1,0 +1,16 @@
+{
+  "name": "Котопес",
+  "short_name": "Котопес",
+  "lang": "uk",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FBF6EC",
+  "theme_color": "#2A6F6B",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
